@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.players{
+    display: flex;
+    
+    align-items: center;
+    gap: 3rem;
+}
+
+.dice-img{
+    width: 170px;
+}
+.container{
+ 
+  
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10rem;
+}
+#player1-p,
+#player2-p{
+    font-size: xx-large;
+    color: #5FC497;
+}
+body{
+    background-color: #34353E;
+}
+#click{
+    font-style: italic;
+    color: #5FC497;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+#dicebtn{
+    border: 1px solid white;
+    background-color: white;
+    width: 6%;
+   padding: 5px;
+   color: black;
+   border-radius: 6px;
+  
+   margin-top: 2rem;
+   font-weight: 800;
+}
+#heading{
+    text-align: center;
+   padding: 30px;
+   font-size: xx-large;
+   color: #999aa0;
+   font-style: italic;
+}
